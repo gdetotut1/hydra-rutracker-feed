@@ -1,0 +1,29 @@
+{
+  "name": "Canonical title diagnostic",
+  "downloads": [
+    {
+      "title": "LEGO® Batman™: Legacy of the Dark Knight",
+      "uris": [
+        "magnet:?xt=urn:btih:45ce0e0bffd0026223224965a36672326646fccd&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce"
+      ],
+      "uploadDate": "2026-05-23T00:00:00.000Z",
+      "fileSize": "40.00 GB"
+    },
+    {
+      "title": "SONIC X SHADOW GENERATIONS",
+      "uris": [
+        "magnet:?xt=urn:btih:3F3255C0F21FB1F94BF0D578336D177F4515A5CD&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet"
+      ],
+      "uploadDate": "2026-04-13T00:54:00Z",
+      "fileSize": "38.97 GB"
+    },
+    {
+      "title": "LEGO Batman 2: DC Super Heroes (2012) PC",
+      "uris": [
+        "magnet:?xt=urn:btih:8ebbdc8a441ef263f97a67d4f40103ac99eecee4&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce"
+      ],
+      "uploadDate": "2012-06-24T00:00:00.000Z",
+      "fileSize": "3.83 GB"
+    }
+  ]
+}
