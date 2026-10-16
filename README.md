@@ -3,7 +3,7 @@
 Добавьте эту прямую ссылку в список источников загрузок Hydra:
 
 ```text
-https://raw.githubusercontent.com/gdetotut1/hydra-rutracker-feed/main/data/rutracker.json?sources=rutracker-rutor-v1
+https://raw.githubusercontent.com/gdetotut1/hydra-rutracker-feed/main/data/rutracker.json?sources=rutracker-rutor-v2
 ```
 
 Каталог находится в [`data/rutracker.json`](data/rutracker.json). Верхний уровень JSON содержит `name` и `downloads`. Каждая раздача содержит `title`, `uris`, `uploadDate` и `fileSize`; ссылки в `uris` имеют формат magnet.
@@ -14,4 +14,4 @@ https://raw.githubusercontent.com/gdetotut1/hydra-rutracker-feed/main/data/rutra
 
 Названия приведены к формату `Game Name [v 1.2 + DLC] (2026) PC | Portable`: имя игры стоит первым, служебные метки RuTracker и языковые блоки удалены. Версии, дополнения, издания и тип сборки сохраняются. После обновления JSON источник требуется синхронизировать в Hydra и дождаться обработки.
 
-Параметр `sources=rutracker-rutor-v1` позволяет добавить общий источник отдельно от уже обработанного Hydra адреса с прежним составом. Старые URL продолжают отдавать этот же файл. Наличие записи в JSON не гарантирует, что сервер Hydra автоматически сопоставит её с нужной игрой.
+Адрес с `sources=rutracker-rutor-v2` обработан сервером Hydra после отмены фильтра симуляторов. Если ранее был добавлен адрес с `sources=rutracker-rutor-v1`, замените его в Hydra на ссылку выше. Старые URL продолжают отдавать этот же обновлённый файл, но сервер Hydra может сохранять для них прежний снимок каталога. Наличие записи в JSON не гарантирует, что сервер Hydra автоматически сопоставит её с нужной игрой.
