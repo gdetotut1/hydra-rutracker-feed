@@ -1,0 +1,11 @@
+.env
+.env.*
+secrets/
+cookies*
+*.cookies.txt
+*.sqlite*
+*.state.json
+.cache/
+.backups/
+*.log
+*.tmp
