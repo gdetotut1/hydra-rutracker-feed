@@ -3,7 +3,7 @@
 Добавьте эту прямую ссылку в список источников загрузок Hydra:
 
 ```text
-https://raw.githubusercontent.com/gdetotut1/hydra-rutracker-feed/main/data/rutracker.json
+https://raw.githubusercontent.com/gdetotut1/hydra-rutracker-feed/main/data/rutracker.json?format=normalized
 ```
 
 Каталог находится в [`data/rutracker.json`](data/rutracker.json). Верхний уровень JSON содержит `name` и `downloads`. Каждая раздача содержит `title`, `uris`, `uploadDate` и `fileSize`; ссылки в `uris` имеют формат magnet.
@@ -11,3 +11,5 @@ https://raw.githubusercontent.com/gdetotut1/hydra-rutracker-feed/main/data/rutra
 Фид формируется локально после успешного завершения сбора и применения отбора тем. Обновления публикуются по тому же адресу.
 
 Названия приведены к формату `Game Name [v 1.2 + DLC] (2026) PC | Portable`: имя игры стоит первым, служебные метки RuTracker и языковые блоки удалены. Версии, дополнения, издания и тип сборки сохраняются. После обновления JSON источник требуется синхронизировать в Hydra и дождаться обработки.
+
+Параметр `format=normalized` позволяет добавить обновлённый источник отдельно от уже обработанного Hydra адреса со старыми названиями. Состав файла тот же. Наличие записи в JSON не гарантирует, что сервер Hydra автоматически сопоставит её с нужной игрой.
